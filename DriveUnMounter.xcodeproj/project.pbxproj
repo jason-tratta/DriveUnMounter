@@ -400,6 +400,7 @@
 				385F56141B0A277400C1C9B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		385F56151B0A277400C1C9B7 /* Build configuration list for PBXNativeTarget "DriveUnMounterTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +409,7 @@
 				385F56171B0A277400C1C9B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
