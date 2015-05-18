@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		385F55FC1B0A277400C1C9B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F55FB1B0A277400C1C9B7 /* AppDelegate.swift */; };
+		385F55FE1B0A277400C1C9B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F55FD1B0A277400C1C9B7 /* ViewController.swift */; };
+		385F56001B0A277400C1C9B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 385F55FF1B0A277400C1C9B7 /* Images.xcassets */; };
+		385F56031B0A277400C1C9B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 385F56011B0A277400C1C9B7 /* Main.storyboard */; };
+		385F560F1B0A277400C1C9B7 /* DriveUnMounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F560E1B0A277400C1C9B7 /* DriveUnMounterTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		385F56091B0A277400C1C9B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 385F55EE1B0A277400C1C9B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 385F55F51B0A277400C1C9B7;
+			remoteInfo = DriveUnMounter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		385F55F61B0A277400C1C9B7 /* DriveUnMounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DriveUnMounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		385F55FA1B0A277400C1C9B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		385F55FB1B0A277400C1C9B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		385F55FD1B0A277400C1C9B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		385F55FF1B0A277400C1C9B7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		385F56021B0A277400C1C9B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		385F56081B0A277400C1C9B7 /* DriveUnMounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DriveUnMounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		385F560D1B0A277400C1C9B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		385F560E1B0A277400C1C9B7 /* DriveUnMounterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveUnMounterTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		385F55F31B0A277400C1C9B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		385F56051B0A277400C1C9B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		385F55ED1B0A277400C1C9B7 = {
+			isa = PBXGroup;
+			children = (
+				385F55F81B0A277400C1C9B7 /* DriveUnMounter */,
+				385F560B1B0A277400C1C9B7 /* DriveUnMounterTests */,
+				385F55F71B0A277400C1C9B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		385F55F71B0A277400C1C9B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				385F55F61B0A277400C1C9B7 /* DriveUnMounter.app */,
+				385F56081B0A277400C1C9B7 /* DriveUnMounterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		385F55F81B0A277400C1C9B7 /* DriveUnMounter */ = {
+			isa = PBXGroup;
+			children = (
+				385F55FB1B0A277400C1C9B7 /* AppDelegate.swift */,
+				385F55FD1B0A277400C1C9B7 /* ViewController.swift */,
+				385F55FF1B0A277400C1C9B7 /* Images.xcassets */,
+				385F56011B0A277400C1C9B7 /* Main.storyboard */,
+				385F55F91B0A277400C1C9B7 /* Supporting Files */,
+			);
+			path = DriveUnMounter;
+			sourceTree = "<group>";
+		};
+		385F55F91B0A277400C1C9B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				385F55FA1B0A277400C1C9B7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		385F560B1B0A277400C1C9B7 /* DriveUnMounterTests */ = {
+			isa = PBXGroup;
+			children = (
+				385F560E1B0A277400C1C9B7 /* DriveUnMounterTests.swift */,
+				385F560C1B0A277400C1C9B7 /* Supporting Files */,
+			);
+			path = DriveUnMounterTests;
+			sourceTree = "<group>";
+		};
+		385F560C1B0A277400C1C9B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				385F560D1B0A277400C1C9B7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		385F55F51B0A277400C1C9B7 /* DriveUnMounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 385F56121B0A277400C1C9B7 /* Build configuration list for PBXNativeTarget "DriveUnMounter" */;
+			buildPhases = (
+				385F55F21B0A277400C1C9B7 /* Sources */,
+				385F55F31B0A277400C1C9B7 /* Frameworks */,
+				385F55F41B0A277400C1C9B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DriveUnMounter;
+			productName = DriveUnMounter;
+			productReference = 385F55F61B0A277400C1C9B7 /* DriveUnMounter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		385F56071B0A277400C1C9B7 /* DriveUnMounterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 385F56151B0A277400C1C9B7 /* Build configuration list for PBXNativeTarget "DriveUnMounterTests" */;
+			buildPhases = (
+				385F56041B0A277400C1C9B7 /* Sources */,
+				385F56051B0A277400C1C9B7 /* Frameworks */,
+				385F56061B0A277400C1C9B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				385F560A1B0A277400C1C9B7 /* PBXTargetDependency */,
+			);
+			name = DriveUnMounterTests;
+			productName = DriveUnMounterTests;
+			productReference = 385F56081B0A277400C1C9B7 /* DriveUnMounterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		385F55EE1B0A277400C1C9B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Jason Tratta";
+				TargetAttributes = {
+					385F55F51B0A277400C1C9B7 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					385F56071B0A277400C1C9B7 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 385F55F51B0A277400C1C9B7;
+					};
+				};
+			};
+			buildConfigurationList = 385F55F11B0A277400C1C9B7 /* Build configuration list for PBXProject "DriveUnMounter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 385F55ED1B0A277400C1C9B7;
+			productRefGroup = 385F55F71B0A277400C1C9B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				385F55F51B0A277400C1C9B7 /* DriveUnMounter */,
+				385F56071B0A277400C1C9B7 /* DriveUnMounterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		385F55F41B0A277400C1C9B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				385F56001B0A277400C1C9B7 /* Images.xcassets in Resources */,
+				385F56031B0A277400C1C9B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		385F56061B0A277400C1C9B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		385F55F21B0A277400C1C9B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				385F55FE1B0A277400C1C9B7 /* ViewController.swift in Sources */,
+				385F55FC1B0A277400C1C9B7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		385F56041B0A277400C1C9B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				385F560F1B0A277400C1C9B7 /* DriveUnMounterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		385F560A1B0A277400C1C9B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 385F55F51B0A277400C1C9B7 /* DriveUnMounter */;
+			targetProxy = 385F56091B0A277400C1C9B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		385F56011B0A277400C1C9B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				385F56021B0A277400C1C9B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		385F56101B0A277400C1C9B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		385F56111B0A277400C1C9B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		385F56131B0A277400C1C9B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DriveUnMounter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		385F56141B0A277400C1C9B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DriveUnMounter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		385F56161B0A277400C1C9B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DriveUnMounterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DriveUnMounter.app/Contents/MacOS/DriveUnMounter";
+			};
+			name = Debug;
+		};
+		385F56171B0A277400C1C9B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DriveUnMounterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DriveUnMounter.app/Contents/MacOS/DriveUnMounter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		385F55F11B0A277400C1C9B7 /* Build configuration list for PBXProject "DriveUnMounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				385F56101B0A277400C1C9B7 /* Debug */,
+				385F56111B0A277400C1C9B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		385F56121B0A277400C1C9B7 /* Build configuration list for PBXNativeTarget "DriveUnMounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				385F56131B0A277400C1C9B7 /* Debug */,
+				385F56141B0A277400C1C9B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		385F56151B0A277400C1C9B7 /* Build configuration list for PBXNativeTarget "DriveUnMounterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				385F56161B0A277400C1C9B7 /* Debug */,
+				385F56171B0A277400C1C9B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 385F55EE1B0A277400C1C9B7 /* Project object */;
+}
